@@ -1,5 +1,13 @@
 # Instructions for llama.cpp
 
+## LeoStehlik Fork Operating Policy
+
+This checkout is a working fork owned by LeoStehlik. For branches and remotes owned by LeoStehlik, an AI coding agent may edit files, create commits, create or update branches, and run `git push` without asking for approval for each individual action when Leo has authorized the overall task. The agent may write concise commit messages for those commits and must use an `Assisted-by:` trailer when its contribution is material.
+
+This permission applies only to repositories and remotes owned by LeoStehlik. It does not permit an agent to push to `Nathanw1014/llama.cpp`, `ggml-org/llama.cpp`, or any other third-party remote. It also does not permit the agent to create or submit an upstream pull request, write a pull-request description, post issue or review comments, or reply to maintainers. Leo performs those publication and maintainer-facing actions himself.
+
+For work confined to the LeoStehlik fork, this section overrides the automated commit, commit-message, and `git push` prohibitions below. All technical, review, disclosure, and upstream contribution guidelines remain in force.
+
 > [!IMPORTANT]
 >
 > AI-generated code is allowed. What is **not** allowed is submitting code you do not understand. You are 100% responsible for every line, however it was produced.
